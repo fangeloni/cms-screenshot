@@ -359,13 +359,4 @@ async function prepareForScreenshot() {
 }
 
 // Esegui la funzione principale
-prepareForScreenshot();
-
-
-(function(){
-   if (typeof startCmsScreenshot === "function") {
-       startCmsScreenshot();
-   } else {
-       console.warn("Funzione startCmsScreenshot non trovata");
-   }
-})();
+//prepareForScreenshot();
